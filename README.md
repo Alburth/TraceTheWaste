@@ -6,6 +6,7 @@ The full project report can be found here: http://liu.diva-portal.org/smash/reco
 
 The mobile app is written in React Native and uses an API to communicate with the database. Within the aplication various checks of the entered data are performed to verify completeness and correctness. 
 
+<h2> Basic flow </h2>
 A construction waste driver needs to provide the following information in each report:
   - An image of the delivery reciept.
   - An image of the waste.
