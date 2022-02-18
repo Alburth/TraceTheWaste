@@ -9,11 +9,10 @@ The mobile app is written in React Native and uses an API to communicate with th
 A construction waste driver needs to provide the following information in each report:
   - An image of the delivery reciept.
   - An image of the waste.
-  - Load information: Date, Site, Bin, Docket No. and weight.
+  - Load information: Date, Site, Bin, Docket No. and Weight.
   - Percentages of the material distribution.
 
-Below is the applications basic flow of a report demonstrated:
-Login -> Home -> Load -> Material -> Uploaded
+Below is the applications basic flow of a report demonstrated from Login -> Home -> Load -> Material -> Uploaded.
 ![Mobilap_flow_send](https://user-images.githubusercontent.com/75698736/154735143-b4918b21-349d-4bba-b00a-18b61652d104.jpg)
 
 <h2> Load screen </h2>
@@ -28,8 +27,8 @@ The material screen has a scrollable list that contains all the materials the co
 
 ![mobilapp_procent_sum_demo](https://user-images.githubusercontent.com/75698736/154741555-dfc6fedc-b841-4131-8b01-75a47742fbaa.jpg)
 
-<h2> Edit uploaded report </h2>
-Now 
+<h2> History </h2>
+The history screen contains a list with key information for all the users reports. Selecting a report shows a compacted overview of all the entered data. The selected report can be edited, in that case the original report is reopened and can be revised and resubmitted with a mandatory note with the reason for change.
 
 ![mobilapp_flow_history](https://user-images.githubusercontent.com/75698736/154743404-516a6103-1d9a-405a-adb6-9b9878e9d5f7.jpg)
 
