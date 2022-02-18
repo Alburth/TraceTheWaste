@@ -8,6 +8,7 @@ The mobile app is written in React Native and uses an API to communicate with th
 
 <h2> Basic flow </h2>
 A construction waste driver needs to provide the following information in each report:
+
   - An image of the delivery reciept.
   - An image of the waste.
   - Load information: Date, Site, Bin, Docket No. and Weight.
